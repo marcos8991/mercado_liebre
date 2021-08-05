@@ -1,0 +1,143 @@
+
+
+body{
+    background-color: #EAC926;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+}
+
+header .buscador p{
+    background-color: #ebebeb;
+    padding: 5px;
+    height: 25px;
+    border:solid 1px #1259c3;
+    color: #666;
+    margin: 5px;
+    
+}
+
+header .boton-buscar a{
+    background-color: #ebebeb;
+    width: 20px;
+    border: solid 1px #666;
+    color: #000;
+    margin: 5px;
+
+}
+
+header .Informacion {
+    color: #000;
+    text-align: center;
+    padding: 10px;
+     
+}
+
+ul{
+    list-style: none;
+}
+
+header .menu a{
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    padding: 4px;
+}
+
+
+header .usuario a{
+    
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    padding: 4px;
+}
+
+header .burger a{
+   
+    text-align: center;
+    color: #1259c3;
+    font-size: 30px;
+    
+
+}
+
+main{
+    background-color: #ebebeb;
+}
+
+main h2{
+    font-size: 24px;
+}
+
+main .productos p{
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+
+main .productos h3{
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+main .ofertas p{
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+
+main .ofertas h3{
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+footer{
+    background-color: #ebebeb ;
+    
+    margin: 0px;
+    padding: 10px 10px;
+}
+
+
+footer .card{
+    text-align: center;
+    color: #1259c3;
+    font-size: 30px;
+}
+
+footer .regalo{
+    text-align: center;
+    color: #1259c3;
+    font-size: 30px;
+
+}
+
+footer .seguridad{
+    text-align: center;
+    color: #1259c3;
+    font-size: 30px;
+}
+
+
+footer h3{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+footer p{
+    font-size: 16px;
+    text-align: center;
+    
+}
