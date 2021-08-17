@@ -1,0 +1,94 @@
+.home main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+ .home main section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} 
+.home main section h4{
+    width: 100%;
+} 
+
+.home main section article{
+    margin: 10px 0;
+    background-color: white;
+    
+}
+
+.home main section article .producto{
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
+    position: relative;
+}
+
+/* camion */
+.home main section article .producto i{
+    color: #39b54a;
+    border: 1px solid #39b54a ;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 16px;
+    width: 30px;
+    background-color: #FFF;
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+.home main section article .producto .precio-descuento{
+    display: flex;
+}
+
+
+/* precio */
+.home main section article .producto .precio{
+    font-size: 18px;
+    flex-grow: 0.3;
+   
+}
+
+/* descuento */
+.home main section article .producto .descuento{
+    font-size: 16px;
+    color:  #39b54a;
+    flex-grow: 0.7;
+}
+
+/* descripcion */
+.home main section article .producto .descripcion{
+    display: none;
+    color: #666 ;
+    font-size: 16px;
+}
+
+/* tablet */
+@media (min-width: 768px) {
+    .home main section article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 40%;
+        
+    }
+    
+
+
+.home main section article .producto .descripcion{
+    display: block;
+}
+
+
+@media (min-width: 1024px){
+    .home main section article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 20%;
+        
+    }
+    
+}
+
+
+
+}
