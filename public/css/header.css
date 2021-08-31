@@ -5,32 +5,58 @@ header{
 }
 
 header .logo-buscador {
-    display: flex;
+    display: flex; 
     flex-wrap: wrap;
-    align-items: center;
-    justify-content:space-between ;
+    align-items: center; 
+    justify-content: space-between;
+     
 }
-
+ 
 
 
 header .logo-buscador .logo{
-    width: 45%;
-    margin-left: 10px;
-    margin-bottom: 10px;
+    width: 48%;
+   
 }
 
 header .logo-buscador .buscador{
-    width: 45%;
+    width: 48%;
+    display: flex;
+} 
+
+header .logo-buscador .buscador form{
+    width: 100%;
+    display:flex;
 }
 
 header .logo-buscador .buscador input{
-    width: 80%;
+    border-radius: 5px 0 0 5px;
+    padding: 10px;
+    flex-grow: 1;
+    width: 100%;
+   
 }
 
-header p.informacion{
+header .logo-buscador .buscador button{
+    background-color: white;
+    color: #666 ;
+    border-radius: 0 5px 5px 0;
+    padding: 10px 5px;
+    display: flex;
+    align-items: center;
+
+    
+}
+
+header .logo-buscador .buscador button:hover{
+    cursor: pointer;
+}
+
+header .informacion p{
     width: 100%;
-    text-align: center;
-    margin: 20px 0; 
+    
+    margin: 15px 0; 
+    font-size: 16px;
 }
 
 
@@ -40,17 +66,22 @@ header nav{
 
 header nav ul li a{
     font-size: 12px;
+    width: 32%;
 }
 
  
 header .menu a{
-    font-size: 24px;
+    font-size: 14px;
     padding: 5px;
+    color: black;
+    
 } 
 
 header .usuario a{
-    font-size: 24px;
-    padding: 5px;
+    font-size: 14px;
+    padding: 10px 5px;
+    color: black;
+    
 } 
 
 header div.burger{
@@ -59,27 +90,29 @@ header div.burger{
 
 
 
-header div .burger{
+header .burger i{
     margin-top: 25px;
     padding: 10px;
     background-color: #1259c3;
     color: #ebebeb;
     border-radius: 10%;
-    font-size: 23px;
+    font-size: 12px;
 
 }
 
 
 @media(min-width:768px){
+
+   
+
     header nav{
         display: flex;
         justify-content: space-between;
+        padding: 5px 0;
     }
 
     header nav ul{
         display: flex;
-        
-
     }
 
     header nav ul li{
@@ -95,13 +128,6 @@ header div .burger{
         width: 32%;
     }
 
-    header p.informacion{
-        width: 32%;
-        font-size: 24px;
-       
-    }
-
-
     header div.burger{
         display: none;
     }
@@ -111,6 +137,17 @@ header div .burger{
     header nav ul li{
         margin:0 10px;
     }
+    header nav{
+       
+        padding: 5px 0;
+    }
+
+    header .logo-buscador .buscador input{
+        border-radius: 5px 0 0 5px;
+        padding: 10px;
+        flex-grow: 1;
+    }
+    
 }
 
 

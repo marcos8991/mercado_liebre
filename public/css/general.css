@@ -7,6 +7,7 @@
 
 
 body{
+    font-size: 12px;
     background-color: #ebebeb;
     
 }
@@ -35,4 +36,32 @@ ul li{
     list-style: none;
     text-decoration: none;
     color: black;
+}
+
+
+
+input , 
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;  
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.btn-rojo{
+    background-color: red;
+}
+
+
+.btn-celeste{
+    background-color: #39b54a;
+    transition:background-color linear  .3s;
+}
+
+.btn-celeste:hover{
+    background-color: #1259c3 ;
+    
 }
